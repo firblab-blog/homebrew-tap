@@ -1,20 +1,20 @@
 class ProjectGuardrails < Formula
   desc "Portable repo-local guardrails bootstrap utility"
   homepage "https://github.com/firblab-blog/project-guardrails"
-  version "0.1.12"
+  version "0.1.13"
   license "MIT OR Apache-2.0"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/firblab-blog/project-guardrails/releases/download/v0.1.12/project-guardrails-v0.1.12-aarch64-apple-darwin.tar.gz"
-      sha256 "c0ebb2f0772a2926e4cb48bc93fe7d31fe6cbd1657ad483ad1e7225d719b1fc9"
+      url "https://github.com/firblab-blog/project-guardrails/releases/download/v0.1.13/project-guardrails-v0.1.13-aarch64-apple-darwin.tar.gz"
+      sha256 "dae78841f687a463d206967ce459318d98bd183ce43ae7a2f7bf4ccd8116f031"
     else
-      url "https://github.com/firblab-blog/project-guardrails/releases/download/v0.1.12/project-guardrails-v0.1.12-x86_64-apple-darwin.tar.gz"
-      sha256 "d681e19c783f82a2ea000df5820d4e40854048f2b369d6e376f09052d48476c5"
+      url "https://github.com/firblab-blog/project-guardrails/releases/download/v0.1.13/project-guardrails-v0.1.13-x86_64-apple-darwin.tar.gz"
+      sha256 "a08d851a4bfa4fa709d22402b9f61c1cf3543139cd5bc6d54d7aa80e5ad1c553"
     end
   else
-    url "https://github.com/firblab-blog/project-guardrails/releases/download/v0.1.12/project-guardrails-v0.1.12-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "b08861752978ee8998d4f765b3c8fa8df97e0f77e6391fc91c93e09b3e1d7553"
+    url "https://github.com/firblab-blog/project-guardrails/releases/download/v0.1.13/project-guardrails-v0.1.13-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "faa8a3de67c943b50b4c7046a6c3b1c6cc81c0a868abfb0e29df99cfaf4dbdb8"
   end
 
   def install
